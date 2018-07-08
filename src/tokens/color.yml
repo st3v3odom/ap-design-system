@@ -1,0 +1,173 @@
+#
+# COLOR TOKENS
+# Use these tokens to set a color.
+# For reference, see http://hslpicker.com/
+#
+# To make things a little simpler for your team,
+# utilize both global & local tokens for colors.
+#
+
+aliases:
+  primary:
+    value: "#2ECC71"
+  vermilion:
+    value: "7, 83%"
+  ucla_gold:
+    value: "43, 100%"
+  bleu_de_france:
+    value: "210, 86%"
+  oxford_blue:
+    value: "210, 100%"
+  rich_black:
+    value: "#001123"
+  white:
+    value: "#fff"
+props:
+  color_vermilion_darker:
+    value: "hsla({!vermilion}, 33%, 1)"
+    category: color_group_1
+  color_vermilion_dark:
+    value: "hsla({!vermilion}, 43%, 1)"
+    category: color_group_1
+  color_vermilion:
+    value: "hsla({!vermilion}, 53%, 1)"
+    category: color_group_1
+  color_vermilion_light:
+    value: "hsla({!vermilion}, 63%, 1)"
+    category: color_group_1
+  color_vermilion_lighter:
+    value: "hsla({!vermilion}, 75%, 1)"
+    category: color_group_1
+
+  color_ucla_gold_darker:
+    value: "hsla({!ucla_gold}, 35%, 1)"
+    category: color_group_2
+  color_ucla_gold_dark:
+    value: "hsla({!ucla_gold}, 45%, 1)"
+    category: color_group_2
+  color_ucla_gold:
+    value: "hsla({!ucla_gold}, 52%, 1)"
+    category: color_group_2
+  color_ucla_gold_light:
+    value: "hsla({!ucla_gold}, 65%, 1)"
+    category: color_group_2
+  color_ucla_gold_lighter:
+    value: "hsla({!ucla_gold}, 75%, 1)"
+    category: color_group_2
+
+  color_bleu_de_france_darker:
+    value: "hsla({!bleu_de_france}, 34%, 1)"
+    category: color_group_3
+  color_bleu_de_france_dark:
+    value: "hsla({!bleu_de_france}, 44%, 1)"
+    category: color_group_3
+  color_bleu_de_france:
+    value: "hsla({!bleu_de_france}, 54%, 1)"
+    category: color_group_3
+  color_bleu_de_france_light:
+    value: "hsla({!bleu_de_france}, 64%, 1)"
+    category: color_group_3
+  color_bleu_de_france_lighter:
+    value: "hsla({!bleu_de_france}, 74%, 1)"
+    category: color_group_3
+
+  color_blue_01:
+    value: "#f4fafe"
+    category: color_group_1
+  color_blue_02:
+    value: "#c6e8fb"
+    category: color_group_1
+  color_blue_03:
+    value: "#79caf6"
+    category: color_group_1
+  color_blue_04:
+    value: "#22a7f0"
+    category: color_group_1
+  color_blue_05:
+    value: "#1b83bb"
+    category: color_group_1
+  
+  color_green_01:
+    value: "#eefbf4"
+    category: color_group_2
+  color_green_02:
+    value: "#acecc7"
+    category: color_group_2
+  color_green_03:
+    value: "#69dd9a"
+    category: color_group_2
+  color_green_04:
+    value: "{!primary}"
+    category: color_group_2
+  color_green_05:
+    value: "#21a558"
+    category: color_group_2
+  
+  color_orange_01:
+    value: "#fff6ef"
+    category: color_group_3
+  color_orange_02:
+    value: "#ffdbbe"
+    category: color_group_3
+  color_orange_03:
+    value: "#fec08f"
+    category: color_group_3
+  color_orange_04:
+    value: "#fd9644"
+    category: color_group_3
+  color_orange_05:
+    value: "#cf7a37"
+    category: color_group_3
+  
+  color_purple_01:
+    value: "#f7f0f9"
+    category: color_group_4
+  color_purple_02:
+    value: "#d5b6e2"
+    category: color_group_4
+  color_purple_03:
+    value: "#b37bcc"
+    category: color_group_4
+  color_purple_04:
+    value: "#9b59b6"
+    category: color_group_4
+  color_purple_05:
+    value: "#602e76"
+    category: color_group_4
+
+  color_gray_01:
+    value: "{!white}"
+    category: color_group_6
+  color_gray_02:
+    value: "#f9fafb"
+    category: color_group_6
+  color_gray_03:
+    value: "#f4f6f8"
+    category: color_group_6
+  color_gray_04:
+    value: "#eff1f3"
+    category: color_group_6
+  color_gray_05:
+    value: "#dfe4e8"
+    category: color_group_6
+  color_gray_06:
+    value: "#C4CDD5"
+    category: color_group_6
+  color_gray_07:
+    value: "#919eab"
+    category: color_group_6
+  color_gray_08:
+    value: "#637381"
+    category: color_group_6
+  color_gray_09:
+    value: "#454f5b"
+    category: color_group_6
+  color_gray_10:
+    value: "#212b35"
+    category: color_group_6
+  color_white:
+    value: "{!white}"
+    category: color_group_4
+global:
+  type: color
+  category: color
