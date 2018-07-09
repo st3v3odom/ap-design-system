@@ -22,6 +22,8 @@ aliases:
     value: "#001123"
   white:
     value: "#fff"
+  yellow:
+    value: "yellow"
 props:
   color_vermilion_darker:
     value: "hsla({!vermilion}, 33%, 1)"
