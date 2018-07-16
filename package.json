@@ -1,6 +1,6 @@
 {
-  "name": "vue-design-system",
-  "version": "3.0.0",
+  "name": "activeprospect-design-system",
+  "version": "3.0.1",
   "description": "Vue Design System is an open-source tool for building Design Systems with Vue.js",
   "author": "viljamis <me@viljamis.com>",
   "main": "dist/system/system.js",
@@ -8,7 +8,7 @@
     "dist/system"
   ],
   "homepage": "https://vueds.com",
-  "private": true,
+  "private": false,
   "license": "MIT",
   "scripts": {
     "dev": "webpack-dev-server --inline --config ./build/webpack.dev.conf.js",
