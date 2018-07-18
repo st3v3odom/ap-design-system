@@ -1,11 +1,11 @@
 {
   "name": "activeprospect-design-system",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "Vue Design System is an open-source tool for building Design Systems with Vue.js",
   "author": "viljamis <me@viljamis.com>",
   "main": "dist/system/system.js",
   "files": [
-    "dist/system"
+    "dist/"
   ],
   "homepage": "https://vueds.com",
   "private": false,
